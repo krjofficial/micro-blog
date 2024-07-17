@@ -13,6 +13,8 @@ const blog_index = (req, res) => {
   });
 }
 
+
+
 const blog_details = (req, res) => {
   const id = req.params.id;
   Blog.findById(id)
@@ -47,7 +49,7 @@ const blog_delete = (req, res) => {
   .catch(err => console.error(err));
 }
 
-module.export = {
+module.exports = {
   blog_index,
   blog_details,
   blog_create_get,

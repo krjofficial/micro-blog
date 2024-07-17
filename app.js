@@ -5,7 +5,6 @@ const blogRoutes = require('./routes/Blogroutes'); // Corrected require statemen
 
 
 
-
 // create express app
 const app = express();
 
